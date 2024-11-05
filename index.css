@@ -1,0 +1,51 @@
+*{
+    /* 设置边框，内外边距为0 */
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.main_header{
+    /* 设置字体水平居中 */
+    text-align: center;
+    /* 设置背景颜色 */
+    background-color: #CCBBff;
+    /* 设置边框圆角 */
+    border-radius: 5px;
+    /* 设置宽高 */
+    height: 50px;
+    /* 设置字体样式 */
+    font-family: Arial, Helvetica, sans-serif;
+    /* 设置字体 */
+    font-size: 20px;
+    /* 设置盒子居中 */
+   
+}
+.main_left{
+
+    /* 设置宽度 */
+    width: 10%;
+    /* 设置背景颜色 */
+    background-color: #CCBBff;
+    /* 设置外边距 */
+    margin-top: 2%;
+    /* 设置边框圆角 */
+    border-radius: 5px;
+}
+.main_left li{
+    list-style: none;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+}
+.main_left li:hover{
+    background-color: #9932CC;
+    opacity: 0.5;
+}
+.main_left a{
+    text-decoration: none;
+    color: white;
+}
